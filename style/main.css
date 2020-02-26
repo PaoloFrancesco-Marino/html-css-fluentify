@@ -114,13 +114,14 @@ body {
 #login {
   border: 1px solid white;
   border-radius: 5px;
-  padding: 10px 15px;
+  padding: 10px 25px;
 }
 
 #btn-verde-small {
   border-radius: 5px;
   background: #7fb802;
   padding: 10px;
+  margin-left: 20px;
 }
 
 #btn-verde-big {
