@@ -206,7 +206,7 @@ body {
 }
 
 .testo-sez-2 {
-  margin: 40px 40px;
+  margin: 40px 0px;
   padding: 0 30px;
   line-height: 40px;
 }
@@ -250,4 +250,22 @@ body {
   display: inline-block;
   font-weight: 400;
   padding: 0 20px;
+}
+
+.col-dx span {
+  padding: 0 20px;
+  text-decoration: underline;
+}
+
+.icona {
+  font-size: 22px;
+}
+
+.col-dx a {
+  border-radius: 5px;
+  background: #7fb802;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
