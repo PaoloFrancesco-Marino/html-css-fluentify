@@ -124,3 +124,20 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+/* barra-grey */
+.grey-bar {
+  background: #d3d3d3;
+  height: 100px;
+  text-align: center;
+}
+
+.grey-bar h2 {
+  padding: 20px;
+  color: #000;
+}
+
+.grey-bar p {
+  color: #999;
+  font-size: 18px;
+}
