@@ -141,3 +141,33 @@ body {
   color: #999;
   font-size: 18px;
 }
+
+/* sezione formativo affiancamento monitoraggio */
+#sez-1 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.formativo img {
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+.calc {
+  float: left;
+  width: calc(100% /3);
+  padding: 20px;
+}
+
+#sez-1 h2 {
+  color: #7bbb00;
+  margin-bottom: 20px;
+}
+
+#sez-1 p {
+  color: #999;
+  font-size: 18px;
+  line-height: 25px;
+}
