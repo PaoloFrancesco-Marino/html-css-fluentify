@@ -23,6 +23,13 @@ body {
   clear: both;
 }
 
+.float {
+  float: left;
+}
+
+.colonne-50 {
+  width: 50%;
+}
 /* header */
 #header {
   height: 500px;
@@ -144,7 +151,6 @@ body {
 
 /* sezione formativo affiancamento monitoraggio */
 #sez-1 {
-  width: 80%;
   margin: auto;
   text-align: center;
   padding: 20px;
@@ -154,6 +160,21 @@ body {
   margin-bottom: 20px;
   height: 200px;
 }
+.blocco-after {
+  position: relative;
+  }
+
+.blocco-after::after {
+  position: absolute;
+  content: '';
+  left: 50%;
+  width: 50%;
+  bottom: 0;
+  height: 1px;
+  transform: translateX(-50%);
+  background: #ccc;
+}
+
 
 .calc {
   float: left;
@@ -164,6 +185,7 @@ body {
 #sez-1 h2 {
   color: #7bbb00;
   margin-bottom: 20px;
+  padding: 20px;
 }
 
 #sez-1 p {
@@ -179,20 +201,30 @@ body {
 
 /* sezione 2 grafico e livello iniziale */
 
-.sez-2 {
-  float: left;
-  width: 50%;
+.float.colonne-50 img {
+  margin: 40px 40px;
 }
 
-.sez-2 img {
-  padding: 40px;
-  margin: 0 200px
+.testo-sez-2 {
+  margin: 40px 40px;
+  padding: 0 30px;
+  line-height: 40px;
 }
 
-.sez-2 h2 {
-  margin-top: 20px;
-  font-size: 30px;
+.testo-sez-2 h2{
   color: #000;
-  padding: 60px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
 
+.testo-sez-2 p{
+  color: #999;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.testo-sez-2 a{
+  color: #98c8f8;
+  font-size: 16px;
+  line-height: 30px;
 }
