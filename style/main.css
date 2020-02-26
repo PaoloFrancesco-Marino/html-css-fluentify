@@ -1,5 +1,126 @@
+/* general styles */
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  background: #ccc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif ;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* utilities */
+.contenitore {
+  width: 80%;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* header */
+#header {
+  height: 500px;
+  background-color: #0d325a;
+  background-image: url('../img/background-header.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 105% 110%;
+}
+
+.menu {
+  height: 80px;
+  line-height: 80px;
+}
+
+.contenitore-header {
+  position: relative;
+}
+
+.colonne {
+  float: left;
+}
+
+.sx {
+  width: 15%;
+}
+
+.colonne.sx img {
+  margin-top: 15px;
+}
+
+.cn {
+  width: 45%;
+}
+
+.dx {
+  width: 40%;
+  text-align: right;
+}
+
+.colonne ul {
+  list-style: none;
+  padding: 0;
+}
+
+.colonne ul li {
+  display: inline-block;
+}
+
+.colonne ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 15px;
+}
+
+.colonne ul li a:hover {
+  color: #f8b71c;
+}
+
+/* sotto-menu + txt */
+.sotto-menu {
+  position: relative;
+  height: 420px;
+  width: 50%;
+}
+
+.sotto-menu-txt {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.sotto-menu-txt h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* bottoni */
+#login {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+#btn-verde-small {
+  border-radius: 5px;
+  background: #7fb802;
+  padding: 10px;
+}
+
+#btn-verde-big {
+  border-radius: 5px;
+  background: #7fb802;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
