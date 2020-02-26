@@ -140,11 +140,12 @@ body {
 }
 
 .grey-bar h2 {
-  padding: 20px;
+  padding-top: 20px;
   color: #000;
 }
 
 .grey-bar p {
+  padding-top: 10px;
   color: #999;
   font-size: 18px;
 }
@@ -229,9 +230,9 @@ body {
   line-height: 30px;
 }
 
-/* sezione struttura un piano */
+/* footer */
 .grey {
-  height: 100px;
+  height: 120px;
   background: #d3d3d3;
 }
 
@@ -268,4 +269,22 @@ body {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+/* help */
+
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+}
+
+.help a {
+  display: inline-block;
+  padding: 10px;
+  background: #7fb802;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
 }
