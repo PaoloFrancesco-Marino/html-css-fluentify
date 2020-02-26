@@ -126,10 +126,14 @@ body {
 #btn-verde-big {
   border-radius: 5px;
   background: #7fb802;
-  padding: 15px;
+  padding: 20px;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+#btn-verde-big:hover {
+  color: #f8b71c;
 }
 
 /* barra-grey */
@@ -271,6 +275,22 @@ body {
   text-transform: uppercase;
 }
 
+.col-dx a:hover{
+  color: #f8b71c;
+}
+
+.select {
+  width: 150px;
+  margin: 0 10px;
+  border-radius: 5px;
+  color: #999;
+  text-transform: capitalize;
+}
+
+.select:hover {
+  color: #000;
+}
+
 /* help */
 
 .help {
@@ -287,4 +307,8 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 5px 5px 0 0;
+}
+
+.help a:hover {
+  color: #f8b71c;
 }
