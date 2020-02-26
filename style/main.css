@@ -171,3 +171,20 @@ body {
   font-size: 18px;
   line-height: 25px;
 }
+
+.bordo {
+  border-bottom: 1px solid #ccc;
+  margin: 0 15px;
+}
+
+/* sezione 2 grafico e livello iniziale */
+
+.sez-2 {
+  float: left;
+  width: 50%;
+}
+
+.sez-2 img {
+  padding: 40px;
+  margin: 0 200px
+}
